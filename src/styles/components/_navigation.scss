@@ -1,0 +1,35 @@
+.navigation {
+    margin-top: 25px;
+    padding: 25px;
+    background-color: rgb(91, 48, 247);
+    width: 20%;
+    border-top-right-radius: 90px;
+
+    .nav-active{
+        li{
+            border: 3px solid white;
+            border-radius: 40px;
+        }
+        
+    }
+
+    li {
+        display: flex;
+        justify-content: space-between;
+        color:floralwhite;
+        padding: 15px;
+        font-size: 1.2rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        &:hover {
+            color: tomato;
+            transition: 0.8s;
+        }
+    }
+
+    img {
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    
+}
